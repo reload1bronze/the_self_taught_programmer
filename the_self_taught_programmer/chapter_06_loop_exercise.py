@@ -35,3 +35,9 @@ for num in list_one:
     index = list_one.index(num)
     result.append(num * list_two[index])
 print(result)
+
+# enumerate 함수를 사용하여 단순화
+result_short = []
+for i, num in enumerate(list_one):
+    result_short.append(num * list_two[i])
+print(result_short)
