@@ -12,7 +12,7 @@ for i in range(25, 51):
 # 3
 # 1번 문제의 인덱스와 요소 모두 출력
 for i, word in enumerate(list_words):
-    print("{} 번째 단어는 {}".format(i, word))
+    print("인덱스 {} 에 해당하는 단어는 {}".format(i, word))
 
 # 4
 # 무한 루프가 생기는 프로그램
