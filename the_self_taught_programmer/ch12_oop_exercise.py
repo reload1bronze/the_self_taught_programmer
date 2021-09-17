@@ -36,4 +36,3 @@ class Rider:
 rider = Rider("wave")
 horse = Horse(rider)
 print(horse.owner.name)
-
