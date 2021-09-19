@@ -48,7 +48,7 @@ x = AlwaysPositive(-34)
 y = AlwaysPositive(12)
 
 print(x + y)
-
+# result : 22
 
 # is 키워드 : 같은 객체인지 확인
 x = 10
