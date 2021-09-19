@@ -1,5 +1,5 @@
 import statistics
-import chapter_07_module_cubed
+import ch07_module_cubed
 
 # 1
 # statistics 모듈의 함수 연습해보기
@@ -17,4 +17,4 @@ print(statistics.stdev(list_num))
 # 2
 # 다른 모듈에서 숫자를 받고 제곱해서 반환하는 함수를 만들고, 임포트해서 그 함수를 호출
 input_num = int(input("숫자를 입력하세요"))
-print(chapter_07_module_cubed.cubed(input_num))
+print(ch07_module_cubed.cubed(input_num))
